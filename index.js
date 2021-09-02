@@ -1,3 +1,9 @@
+const nameArray = document.querySelectorAll(".nameClass");
+const ageArray = document.querySelectorAll(".ageClass");
+const yugaArray = document.querySelectorAll(".yugaClass");
+
+const addMemberBtn = document.querySelector("#addMemberBtn");
+
 const person = [
   {
     name: "Ram",
@@ -10,3 +16,9 @@ const person = [
     yuga: "Dwapar",
   },
 ];
+
+addMemberBtn.addEventListener("click", onMemberBtnClick);
+
+function onMemberBtnClick() {
+  console.log("hi");
+}

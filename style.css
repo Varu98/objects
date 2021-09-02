@@ -1,0 +1,19 @@
+body {
+  margin-left: 30px;
+  margin-top: 5px;
+  padding-top: 20px;
+  padding-left: 20px;
+  background-color: #1d2323;
+  color: #bfbfbf;
+  font-family: "Ubuntu", sans-serif;
+}
+h3 {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+table,
+th,
+tr,
+td {
+  padding: 10px;
+}

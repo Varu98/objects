@@ -5,13 +5,85 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Object in Js Practise</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
   </head>
+  <!-- added a comment line for git commit -->
   <body>
-    <h3>Object in Js Practise</h3>
+    <h1>Object in Js Practise</h1>
     <p>
       Create two objects with name, age, and yuga as Ram, 25, Treta. Krishna,
-      31, Dwapar. Write a function which takes two objects and return the person
-      with more age.
+      31, Dwapar.
     </p>
+    <p>
+      Write a function which takes two objects and return the person with more
+      age.
+    </p>
+
+    <h3>Approach</h3>
+    <p>create a table and print default values of ram and Krishna</p>
+
+    <p>add a button for user input to to add more members</p>
+
+    <p>
+      show different 3 divs of name age and yuga for input and hide the previous
+      after entering details
+    </p>
+
+    <p>update the table and show content</p>
+    <!-- <table>
+      <tr>
+        <th>Name</th>
+        <td>Ram</td>
+        <td>Krishna</td>
+      </tr>
+      <tr>
+        <th>Age</th>
+        <td>25</td>
+        <td>31</td>
+      </tr>
+      <tr>
+        <th>Yuga</th>
+        <td>Treta</td>
+        <td>Dwapar</td>
+      </tr>
+    </table> -->
+    <table>
+      <tr>
+        <th>Name</th>
+        <td class="nameClass"></td>
+        <td class="nameClass"></td>
+        <td class="nameClass"></td>
+        <td class="nameClass"></td>
+        <td class="nameClass"></td>
+        <td class="nameClass"></td>
+        <td class="nameClass"></td>
+      </tr>
+      <tr>
+        <th>Age</th>
+        <td class="ageClass"></td>
+        <td class="ageClass"></td>
+        <td class="ageClass"></td>
+        <td class="ageClass"></td>
+        <td class="ageClass"></td>
+        <td class="ageClass"></td>
+      </tr>
+      <tr>
+        <th>Yuga</th>
+        <td class="yugaClass"></td>
+        <td class="yugaClass"></td>
+        <td class="yugaClass"></td>
+        <td class="yugaClass"></td>
+        <td class="yugaClass"></td>
+        <td class="yugaClass"></td>
+      </tr>
+    </table>
+    <button id="addMemberBtn" type="submit">+ Add New Member</button>
+    <script src="./index.js"></script>
   </body>
 </html>
